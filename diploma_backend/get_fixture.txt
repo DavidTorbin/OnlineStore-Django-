@@ -1,0 +1,19 @@
+py manage.py dumpdata app_megano.Category --indent 4 > fixture/app_megano/category.json
+py manage.py dumpdata app_megano.Subcategories --indent 4 > fixture/app_megano/subcategories.json
+py manage.py dumpdata app_megano.Specifications --indent 4 > fixture/app_megano/specifications.json
+py manage.py dumpdata app_megano.Products --indent 4 > fixture/app_megano/products.json
+py manage.py dumpdata app_megano.ProductImages --indent 4 > fixture/app_megano/productimages.json
+py manage.py dumpdata app_megano.Reviews --indent 4 > fixture/app_megano/reviews.json
+
+py manage.py dumpdata app_orders.DeliveryType --indent 4 > fixture/app_orders/deliverytype.json
+py manage.py dumpdata app_orders.Status --indent 4 > fixture/app_orders/status.json
+py manage.py dumpdata app_orders.PaymentType --indent 4 > fixture/app_orders/paymenttype.json
+py manage.py dumpdata app_orders.Orders --indent 4 > fixture/app_orders/orders.json
+py manage.py dumpdata app_orders.ProductInOrder --indent 4 > fixture/app_orders/productinorder.json
+
+py manage.py dumpdata app_users.UserProfile --indent 4 > fixture/app_users/userprofile.json
+py manage.py dumpdata app_users.Cities --indent 4 > fixture/app_users/cities.json
+py manage.py dumpdata app_users.Address --indent 4 > fixture/app_users/address.json
+py manage.py dumpdata app_users.Payments --indent 4 > fixture/app_users/payments.json
+
+py manage.py dumpdata app_cart.CartItems --indent 4 > fixture/app_cart/cartitems.json
